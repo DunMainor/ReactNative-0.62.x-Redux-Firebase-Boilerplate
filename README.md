@@ -1,5 +1,5 @@
 ## About 
-A Boilerplate ReactNative Application with all necessary dependencies preinstalled to kickstart your project quick with minimal setup. It also has full support for androidX with Hermes JavaScript and runs on react native 0.60.X with continuous updates. Feel free to fork this project and build on top of it as we create a perfect ReactNative template. I will review any Pull Requests as soon as I can and Approve them when necessary to enhance the project.
+A Boilerplate ReactNative Application with all necessary dependencies preinstalled to kickstart your project quick with minimal setup. It also has full support for androidX with Hermes JavaScript Engine and runs on react native 0.62.X with continuous updates. Feel free to fork this project and build on top of it as we create a perfect ReactNative template. I will review any Pull Requests as soon as I can and Approve them when necessary to enhance the project.
 
 ## Installation Instructions
 
@@ -7,10 +7,6 @@ A Boilerplate ReactNative Application with all necessary dependencies preinstall
 
 ```console
 foo@bar:~$ git pull https://github.com/DunMainor/ReactNative-0.62.x-Redux-Firebase-Boilerplate.git
-```
-##### or
-```console
-foo@bar:~$ git pull https://gitlab.com/DunMainor/reactnative-boilerplate-app.git
 ```
 
 ##### Then cd into the project folder and run the following commands
@@ -72,17 +68,17 @@ foo@bar:~$ yarn prepare:ios && build:ios:debug
 - [x] [redux-thunk](https://npmjs.com/package/redux-thunk)
 
 ### Dev
-- [x] [package/@react-native-community/eslint-config](https://npmjs.com/package/@react-native-community/eslint-config)
-- [x] [package/enzyme](https://npmjs.com/package/enzyme)
-- [x] [package/enzyme-adapter-react-16](https://npmjs.com/package/enzyme-adapter-react-16)
-- [x] [package/enzyme-to-json](https://npmjs.com/package/enzyme-to-json)
-- [x] [package/eslint](https://npmjs.com/package/eslint)
-- [x] [package/eslint-config-airbnb-base](https://npmjs.com/package/eslint-config-airbnb-base)
-- [x] [package/eslint-import-resolver-alias](https://npmjs.com/package/eslint-import-resolver-alias)
-- [x] [package/eslint-plugin-import](https://npmjs.com/package/eslint-plugin-import)
-- [x] [package/eslint-plugin-react-native](https://npmjs.com/package/eslint-plugin-react-native)
-- [x] [package/react-dom](https://npmjs.com/package/react-dom)
-- [x] [package/react-test-renderer](https://npmjs.com/package/react-test-renderer)
+- [x] [@react-native-community/eslint-config](https://npmjs.com/package/@react-native-community/eslint-config)
+- [x] [enzyme](https://npmjs.com/package/enzyme)
+- [x] [enzyme-adapter-react-16](https://npmjs.com/package/enzyme-adapter-react-16)
+- [x] [enzyme-to-json](https://npmjs.com/package/enzyme-to-json)
+- [x] [eslint](https://npmjs.com/package/eslint)
+- [x] [eslint-config-airbnb-base](https://npmjs.com/package/eslint-config-airbnb-base)
+- [x] [eslint-import-resolver-alias](https://npmjs.com/package/eslint-import-resolver-alias)
+- [x] [eslint-plugin-import](https://npmjs.com/package/eslint-plugin-import)
+- [x] [eslint-plugin-react-native](https://npmjs.com/package/eslint-plugin-react-native)
+- [x] [react-dom](https://npmjs.com/package/react-dom)
+- [x] [react-test-renderer](https://npmjs.com/package/react-test-renderer)
 
 
 
