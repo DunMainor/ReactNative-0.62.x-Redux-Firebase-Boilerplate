@@ -21,24 +21,22 @@ const NavigationHeader = ({
   }
 
   return (
-    <Container style={styles().container} >
-        <Header style={styles().header_container}>
-            <LinearGradient
-              style={styles().header_gradient}
-              colors={[Colors.PrimaryGradientStart, Colors.PrimaryGradientStop]}
-              start={{ x: 0, y: 0.1 }}
-              end={{ x: 1, y: 0.1 }}
-            >
-            <View style={styles().view_header_title}>
-              <Title style={styles().txt_header_title} >{title}</Title>
-            </View>
-            <TouchableOpacity style={styles().touchable_notifications} onPress={openNotifications}>
-              <NotificationBell count={route?.params?.unread_notifications_count} />
-            </TouchableOpacity>
-          </LinearGradient>
-        </Header>
-        <StatusBar barStyle="light-content" backgroundColor={Colors.PrimaryGradientStart} />
-    </Container>
+    <Header style={styles().header_container}>
+        <LinearGradient
+          style={styles().header_gradient}
+          colors={[Colors.PrimaryGradientStart, Colors.PrimaryGradientStop]}
+          start={{ x: 0, y: 0.1 }}
+          end={{ x: 1, y: 0.1 }}
+        >
+        <View style={styles().view_header_title}>
+          <Title style={styles().txt_header_title} >{title}</Title>
+        </View>
+        <TouchableOpacity style={styles().touchable_notifications} onPress={openNotifications}>
+          <NotificationBell count={route?.params?.unread_notifications_count} />
+        </TouchableOpacity>
+      </LinearGradient>
+      <StatusBar barStyle="light-content" backgroundColor={Colors.PrimaryGradientStart} />
+    </Header>
   )
 }
 export default NavigationHeader
