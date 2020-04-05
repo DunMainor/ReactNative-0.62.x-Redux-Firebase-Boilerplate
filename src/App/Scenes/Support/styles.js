@@ -38,10 +38,13 @@ const styles = (props) => StyleSheet.create({
     justifyContent: 'space-between',
   },
   container: {
-    backgroundColor: Colors.BackgroundColor,
+    backgroundColor: Colors.BackgroundColorDark,
     flex: 1,
-    marginTop: height * 0.075,
-    paddingVertical: height * 0.025,
+  },
+  content: {
+    backgroundColor: Colors.BackgroundColorDark,
+    flex: 1,
+    paddingVertical: height * 0.02,
   },
   icon_call_support: {
     alignSelf: 'center',

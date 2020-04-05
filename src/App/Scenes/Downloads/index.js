@@ -25,7 +25,7 @@ class Downloads extends React.Component {
       const { showAlert, alert } = this.state
       return (
         <Container style={styles().container}>
-            <Content>
+            <Content contentContainerStyle={styles().content}>
                 <Text style={styles().txt_tab_name}>Downloads</Text>
             </Content>
             <AwesomeAlert

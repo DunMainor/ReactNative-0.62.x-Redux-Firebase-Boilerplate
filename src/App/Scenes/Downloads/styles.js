@@ -6,9 +6,12 @@ const { width, height } = Constants
 
 const styles = (props) => StyleSheet.create({
   container: {
-    backgroundColor: Colors.BackgroundColor,
+    backgroundColor: Colors.BackgroundColorDark,
     flex: 1,
-    marginTop: height * 0.075,
+  },
+  content: {
+    backgroundColor: Colors.BackgroundColorDark,
+    flex: 1,
     paddingVertical: height * 0.02,
   },
   txt_tab_name: {

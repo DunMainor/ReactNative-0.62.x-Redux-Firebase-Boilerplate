@@ -31,7 +31,7 @@ class Support extends React.Component {
 
     return (
         <Container style={styles().container}>
-            <Content>
+            <Content contentContainerStyle={styles().content}>
               {/* Quick Support Actions */}
               <View style={styles().view_quick_actions}>
                 <TouchableOpacity style={styles().touchable_quick_action} onPress={this.handleWhatsApp}>
