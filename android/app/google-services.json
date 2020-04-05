@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "459759826082",
+    "firebase_url": "https://boilerplateapp-7549c.firebaseio.com",
+    "project_id": "boilerplateapp-7549c",
+    "storage_bucket": "boilerplateapp-7549c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459759826082:android:382ba03f7fe1535fdc93fb",
+        "android_client_info": {
+          "package_name": "com.zaidiapps.boilerplateapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459759826082-9t6gmf8ht5vjpb3f7e56u321hudii7a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9XM1ZdalUx4EapGvYKHeHTt6RdeJsMNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459759826082-9t6gmf8ht5vjpb3f7e56u321hudii7a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459759826082:android:4579e868a5b35ca0dc93fb",
+        "android_client_info": {
+          "package_name": "com.zaidimarvels.android.rnboilerplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459759826082-9t6gmf8ht5vjpb3f7e56u321hudii7a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9XM1ZdalUx4EapGvYKHeHTt6RdeJsMNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459759826082-9t6gmf8ht5vjpb3f7e56u321hudii7a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
